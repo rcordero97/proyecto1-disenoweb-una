@@ -3,17 +3,48 @@
     margin: auto;
 }
 
-#seccion1{
-    background-image: url('../mocks/Imagenes/M1-Portada-Background.jpg');
-}
-
 #content{
     width: 100%;
     margin: auto;
-    position: absolute;
     overflow: hidden;
 }
 
 #seccion1{
     position: relative;
+    overflow: hidden;
+}
+
+
+#nube{
+    width: 50%;
+    top: 10%;
+    left: 25%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    color: rgb(10, 9, 9);
+}
+
+#nube img{
+    width: 40%;
+}
+#nube h5{
+    margin: auto;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 900;
+    width: 50%;
+    color: rgb(253, 253, 253);
+}
+
+.grid{
+    width: 50%;
+    font-size: 14pt;
+    font-weight: 900;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    color: rgb(247, 247, 247);
 }
