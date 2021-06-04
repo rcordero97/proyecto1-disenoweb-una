@@ -6,3 +6,14 @@
 #seccion1{
     background-image: url('../mocks/Imagenes/M1-Portada-Background.jpg');
 }
+
+#content{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    overflow: hidden;
+}
+
+#seccion1{
+    position: relative;
+}
