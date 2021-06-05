@@ -25,6 +25,25 @@
     color: rgb(10, 9, 9);
 }
 
+.header-seccion2{
+    color: rgb(7, 64, 248);
+    font-size: 18pt;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px;
+}
+
+#img-almacenamiento{
+    width: 100%;
+    margin: 40px;
+}
+
+.container h5{
+    text-align: justify;
+    color: rgb(7, 64, 248);
+    margin: 13px;
+}
 #nube img{
     width: 40%;
 }
