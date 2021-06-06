@@ -49,12 +49,12 @@
 }
 
 .header-seccion2, .header-seccion4{
-    color: rgb(7, 64, 248);
+    color: #2b78e4;
     font-size: 18pt;
     font-style: normal;
     text-align: center;
     font-weight: 700;
-    margin: 20px;
+    margin: 30px;
 }
 
 .header-seccion5{
@@ -88,6 +88,7 @@
     background:#000000;
     color: white;
     font-size: 14pt;
+    height: 700px;
 }
 
 #seccion5{
@@ -117,11 +118,15 @@
     margin: 40px;
 }
 
-#trabajo-colaborativo, #file-dowload-upload{
-    width: 95%;
-    float: left;
-    margin: 40px;
-    height: 500px;
+#trabajo-colaborativo{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 380px;
 }
 
 .container h5{
