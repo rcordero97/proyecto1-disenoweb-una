@@ -31,11 +31,15 @@
 }
 
 #navbarDropdown,#navbarDropdown2,.textoAzul{
-    color: #2b78e4;    
+    color: #2b78e4 !important;   
 }
 
 .textoBlanco{
     color: #ffffff !important;    
+}
+
+.textoNegro{
+    color: #000000 !important;    
 }
 
 #nube{
@@ -48,13 +52,31 @@
     color: rgb(10, 9, 9);
 }
 
-.header-seccion2, .header-seccion4{
+.precioTag{
+    color: #2b78e4;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.precioValue{
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.header-seccion2, .header-seccion4, .header-seccion7{
     color: #2b78e4;
     font-size: 18pt;
     font-style: normal;
     text-align: center;
     font-weight: 700;
     margin: 30px;
+}
+
+.tablePrecio{
+    text-align: center;
 }
 
 .header-seccion5{
@@ -95,11 +117,25 @@
     background:  #ccd1d1;
     color: black;
     font-size: 14pt;
+    height: 650px;
 }
 
 #seccion6{
     background:#2b78e4;
     font-size: 12pt;
+    height: 650px;
+}
+
+#seccion7{
+    background:#FFFFFF;
+    font-size: 12pt;
+    height: 700px;
+}
+
+#seccion8{
+    background:#2b78e4;
+    font-size: 12pt;
+    height: 650px;
 }
 
 #div-icon{
@@ -129,6 +165,17 @@
     height: 380px;
 }
 
+#file-dowload-upload{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 500px;
+}
+
 .container h5{
     text-align: justify;
     color: rgb(7, 64, 248);
@@ -139,6 +186,7 @@
     text-align: justify;
     font-size: 16pt;
     color: rgb(248, 248, 248);
+
 }
 
 #nube img{
