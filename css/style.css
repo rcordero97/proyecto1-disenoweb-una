@@ -12,7 +12,7 @@
 
 #content{
     width: 100%;
-    margin: auto;
+  /*  margin: auto;*/
     overflow: hidden;
 }
 
@@ -87,7 +87,7 @@
     font-weight: 700;
     padding: 30px;
 }
-.header-seccion3, .header-seccion6{
+.header-seccion3, .header-seccion6, .header-seccion8{
     color: rgb(255, 255, 255);
     font-size: 18pt;
     font-style: normal;
@@ -117,7 +117,7 @@
     background:  #ccd1d1;
     color: black;
     font-size: 14pt;
-    height: 650px;
+    height: 700px;
 }
 
 #seccion6{
@@ -134,7 +134,7 @@
 
 #seccion8{
     background:#2b78e4;
-    font-size: 12pt;
+    font-size: 24pt;
     height: 650px;
 }
 
@@ -161,8 +161,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    width: 600px;
-    height: 380px;
+    width: 500px;
+    height: 300px;
 }
 
 #file-dowload-upload{
@@ -176,7 +176,7 @@
     height: 500px;
 }
 
-.container h5{
+.container {
     text-align: justify;
     color: rgb(7, 64, 248);
     margin: 13px;
@@ -192,6 +192,7 @@
 #nube img{
     width: 40%;
 }
+
 #nube h5{
     margin: auto;
     font-size: 20pt;
