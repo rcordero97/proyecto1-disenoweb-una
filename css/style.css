@@ -25,7 +25,7 @@
     color: rgb(10, 9, 9);
 }
 
-.header-seccion2{
+.header-seccion2, .header-seccion4{
     color: rgb(7, 64, 248);
     font-size: 18pt;
     font-style: normal;
@@ -45,6 +45,12 @@
     background:#5499c7;
 }
 
+#seccion4{
+    background:#000000;
+    color: white;
+    font-size: 14pt;
+}
+
 #div-icon{
     width: 50%;
     margin: auto;
@@ -59,6 +65,13 @@
 #img-almacenamiento{
     width: 100%;
     margin: 40px;
+}
+
+#trabajo-colaborativo{
+    width: 95%;
+    float: left;
+    margin: 40px;
+    height: 500px;
 }
 
 .container h5{
