@@ -33,7 +33,16 @@
     font-weight: 700;
     margin: 20px;
 }
-.header-seccion3{
+
+.header-seccion5{
+    color: rgb(0, 0, 0);
+    font-size: 18pt;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+}
+.header-seccion3, .header-seccion6{
     color: rgb(255, 255, 255);
     font-size: 18pt;
     font-style: normal;
@@ -41,6 +50,7 @@
     font-weight: 700;
     padding: 30px;
 }
+
 #seccion3{
     background:#5499c7;
 }
@@ -49,6 +59,17 @@
     background:#000000;
     color: white;
     font-size: 14pt;
+}
+
+#seccion5{
+    background:  #ccd1d1;
+    color: black;
+    font-size: 14pt;
+}
+
+#seccion6{
+    background:#2ca3f1;
+    font-size: 12pt;
 }
 
 #div-icon{
@@ -67,7 +88,7 @@
     margin: 40px;
 }
 
-#trabajo-colaborativo{
+#trabajo-colaborativo, #file-dowload-upload{
     width: 95%;
     float: left;
     margin: 40px;
@@ -79,6 +100,13 @@
     color: rgb(7, 64, 248);
     margin: 13px;
 }
+
+#seccion6 p{
+    text-align: justify;
+    font-size: 16pt;
+    color: rgb(248, 248, 248);
+}
+
 #nube img{
     width: 40%;
 }
