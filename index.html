@@ -1,193 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/c9a1db52f0.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CloudFile - Bienvenida</title>
+    <link rel="icon" href="./mocks/Imagenes/Logo_Blanco.png">
+
 </head>
+
 <body>
-    <div id="wrapper">
-        <header>
-            <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-                <a href="index.html"><img id="logo" src="./mocks/Imagenes/Logo.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <div class="navbar-nav ml-auto text-center">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                            role="button" data-toggle="dropdown">CloudFile</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                            <a class="dropdown-item" href="#">Almacenamiento de datos</a>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a href="index.html"><img id="logo" src="./mocks/Imagenes/Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="navbar-nav ml-auto text-center ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown">CloudFile</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#seccion2">Almacenamiento de datos</a>
                             <a class="dropdown-item" href="#">Planes y Precios</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                            role="button" data-toggle="dropdown">Caracteristicas</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                            <a class="dropdown-item" href="#">Trabajo Colaborativo</a>
-                            <a class="dropdown-item" href="#">Disponibilidad del Servicio</a>
-                            <a class="dropdown-item" href="#">Recuperacion de Datos</a>
-                            <a class="dropdown-item" href="#">Interacion de Alto Rendimiento</a>
-                            </div>
-                        </li>
-                        <a class="nav-link" href="#">Contactenos</a>
-                        <a class="nav-link" href="#">Acerca de Nosotros</a>
-                        <a class="nav-link" href="#">Contactenos</a>
-                        <a class="nav-link" href="#"><i class="bi bi-plus-circle"></i> Registrarse</a>
-                        <a class="nav-link" href="#"><i class="bi bi-person-circle"></i> Log In</a>
-                    </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-toggle="dropdown">Caracteristicas</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#seccion3">Disponibilidad del Servicio</a>
+                            <a class="dropdown-item" href="#seccion4">Trabajo Colaborativo</a>
+                            <a class="dropdown-item" href="#seccion5">Recuperacion de Datos</a>
+                            <a class="dropdown-item" href="#seccion6">Interacion de Alto Rendimiento</a>
+                        </div>
+                    </li>
+                    <a class="nav-link" href="#"><span class="textoAzul">Contactenos</span></a>
+                    <a class="nav-link" href="#"><span class="textoAzul">Acerca de Nosotros</span></a>
+                    <a class="nav-link" href="#"><span class="textoAzul"><i class="bi bi-plus-circle"></i>
+                            Registrarse</span></a>
+                    <a class="nav-link" href="#"><span class="textoAzul"><i class="bi bi-person-circle"></i> Log
+                            In</span></a>
                 </div>
             </div>
-        </header>
-        <main id="content">
-            <section id="seccion1">
-                <img src="./mocks/Imagenes/M1-Portada-Background.jpg" alt="">
-                <div id="nube">
-                    <img  src="./mocks/Imagenes/Logo_Blanco.png" alt="">
-                    <h5>!Bienvenido a ClaudFile!</h5>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="seccion1">
+            <article>
+                <center>
+                    <br><br><br><br><br>
+                    <img src="./mocks/Imagenes/Logo_Blanco.png" alt="" width="280px" height="180px">
+                    <br>
+                    <span id="titulo">¡Bienvenido a CloudFile!</span>
+                </center>
+            </article>
+            <div class="grid">
+                <div class="row">
+                    <article class="col-md-6">
+                        <br><br><br><br>
+                        <span>Puedes consultar los diferentes precios y planes, y
+                            elegir el que más se adapte a tus necesidades.
+                        </span>
+                        <br>
+                        <button class="btn btn-primary" type="submit">Precios Y Planes</button>
+                    </article>
+                    <article class="col-md-6">
+                        <br><br><br><br>
+                        <span>
+                            Si ya tienes una suscripcion a CloudFile
+                            puedes acceder a todos tus archivos.
+                        </span>
+                        <br>
+                        <button class="btn btn-primary" type="submit">¡Empezar Ya!</button>
+                    </article>
                 </div>
-                <div class="grid">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <p>Puedes consultar los diferentes precios Y planes Y 
-                            elegir el que mas se adapte a tus necesidades
-                        </p>
-                        <button class="btn btn-primary" type="submit">Precios Y planes</button>
-                      </div>
-                      <div class="col-md-6">
-                        <p>
-                            Si ya tienes una suscripcion a ClaudFile 
-                            Puedes acceder a todos tus archivos
-                        </p>
-                        <button class="btn btn-primary" type="submit">Empezar Ya!</button>
-                      </div>
-                    </div>
-                </div>
-            </section>
-            <section id="seccion2">
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <header class="header-seccion2">Con ClaudFile Puedes Almacenar <br/>cualquier tipo de Archivo!</header>
-                        <h5>
-                            <i class="bi bi-cloud-fill"></i> 
-                            ClaudFile es un sistema para almacenar y<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; compartir por medio de una plataforma 100%<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; en la Nube, que posee una experiencia amigable <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; y sencilla con el usuario
-                        </h5>
-                        <h5>
-                            <i class="bi bi-hdd"></i>
-                            ClaudFile tiena mayores espacios de<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; Almacenamiento que su competencia lo que<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; demuestra que ClaudFile es un lider en el<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; mercado de soluciones de almacenamiento y<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; transerencia de datos
-                        </h5>
-                        <h5>
-                            <i class="bi bi-file-earmark-fill"></i>
-                            ClaudFile Soporta cualquier tipo de archivo, ya<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; sea que nesecites alacenar y compartir un<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; archivo pdf o tal vez una exposicion<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; importante en forma word, ClaudFile te<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; permite tener todos tus archivos de manera<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; centralizada
-                        </h5>
-                      </div>
-                      <div class="col-md-6">
-                        <img id="img-almacenamiento" src="./mocks/Imagenes/M2-Almacenamiento-Background.png" alt="">
-                      </div>
-                    </div>
-                </div>
-            </section>
-            <section id="seccion3">
-                <div class="container">
-                    <header class="header-seccion3">Con ClaudFile Puedes acceder <br/>a tu informacion en todo momento!</header>
-                    <div class="row">
-                      <div class="col-md-4">
+            </div>
+        </section>
+        <section id="seccion2" class="container">
+            <br>
+            <br>
+            <div class="row">
+                <article class="col-md-6">
+                    <header class="header-seccion2">¡Con CloudFile puedes almacenar <br />cualquier tipo de
+                        archivo!</header>
+                    <h5>
+                        <i class="bi bi-cloud-fill"></i>
+                        CloudFile es un sistema para almacenar y<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; compartir por medio de una plataforma 100%<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; en la Nube, que posee una experiencia amigable <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; y sencilla con el usuario.
+                    </h5>
+                    <h5>
+                        <i class="bi bi-hdd"></i>
+                        CloudFile tiena mayores espacios de<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Almacenamiento que su competencia lo que<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; demuestra que CloudFile es un lider en el<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; mercado de soluciones de almacenamiento y<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; transerencia de datos.
+                    </h5>
+                    <h5>
+                        <i class="bi bi-file-earmark-fill"></i>
+                        CloudFile Soporta cualquier tipo de archivo, ya<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; sea que nesecites alacenar y compartir un<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; archivo pdf o tal vez una exposicion<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; importante en forma word, CloudFile te<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; permite tener todos tus archivos de manera<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; centralizada.
+                    </h5>
+                </article>
+                <article class="col-md-6">
+                    <img id="img-almacenamiento" src="./mocks/Imagenes/M2-Almacenamiento-Background.png" alt="">
+                </article>
+            </div>
+        </section>
+        <section id="seccion3">
+            <br><br><br>
+            <section class="container">
+                <header class="header-seccion3">Con CloudFile Puedes acceder <br />a tu informacion en todo momento!
+                </header>
+                <div class="row">
+                    <article class="col-md-4">
                         <div id="div-icon">
-                            <img src="./img/reloj.png" alt="">
+                            <i class="far fa-clock fa-5x"></i>
                             <h4>24/7</h4>
-                        </div>  
-                        <h5>
+                            <br>
+                        </div>
+                        <h5 class="textoBlanco">
                             El servicio de CloudFile se encuentra disponible 24/7, en todo momento
                             que lo ocupes CloudFile estara para ti, asegurate que en calquier
                             momento que desees acceder a tu informacion puedes disfruta de ella
-                            sin ningun problema
+                            sin ningun problema.
                         </h5>
-                      </div>
-                        <div class="col-md-4">
-                            <div id="div-icon">
-                                <img src="./img/mundo.png" alt="">
-                                <h4>Acceso global</h4>
-                            </div>  
-                            <h5>
-                                Con CloudFile puede acceder a tu informacion personal en cualquier
-                                parte del mundo sea donde te encuentres, solamente necesitas
-                                de una conexion a internet estable para poder ingresar al sistema
-                                de archivos y poder revisar tu perfil
-                            </h5>
+                    </article>
+                    <article class="col-md-4">
+                        <div id="div-icon">
+                            <i class="fas fa-globe-americas fa-5x"></i> <br>
+                            <h4>Acceso global</h4>
+                            <br>
                         </div>
-                        <div class="col-md-4">
-                            <div id="div-icon">
-                                <img src="./img/cellphone.png" alt="">
-                                <h4>Multi dispositivo</h4>
-                            </div>  
-                            <h5>
-                                Con CloudFileno tienes que preocupartesino tienes tu laptop
-                                cerca, ya que nuestra plataforma permite poder ingresar a nuestra
-                                informacion desde cualquier dispositivo con conexion a
-                                internet, que esperas para poder tener tu plan de CloudFile
-                            </h5>    
+                        <h5 class="textoBlanco">
+                            Con CloudFile puede acceder a tu informacion personal en cualquier
+                            parte del mundo sea donde te encuentres, solamente necesitas
+                            de una conexion a internet estable para poder ingresar al sistema
+                            de archivos y poder revisar tu perfil.
+                        </h5>
+                    </article>
+                    <article class="col-md-4">
+                        <div id="div-icon">
+                            <i class="fas fa-mobile-alt fa-5x"></i>
+                            <h4>Multi-dispositivo</h4>
                         </div>
-                    </div>
+                        <h5 class="textoBlanco">
+                            Con CloudFile no tienes que preocuparte si no tienes tu laptop
+                            cerca, ya que nuestra plataforma permite poder ingresar a nuestra
+                            informacion desde cualquier dispositivo con conexion a
+                            internet, que esperas para poder tener tu plan de CloudFile.
+                        </h5>
+                    </article>
                 </div>
             </section>
-            <section id="seccion4">
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
+        </section>
+        <section id="seccion4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
                         <img id="trabajo-colaborativo" src="./mocks/Imagenes/M4-Trabajo-Colaborativo-Imagen.jpg" alt="">
-                      </div>
-                        <div class="col-md-6">
-                            <header class="header-seccion4">Con ClaudFile Puedes almacenar <br/>cualquier tipo de archivos</header> 
-                            <p><i class="bi bi-people-fill"></i> Con nuestra plataforma podes administrar grupos<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; de trabajo. Los grupos de trabajo son una herramienta<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; muy util para equipos, organizaciones y proyectos donde<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; podras tener toda la informacion
-                            </p> 
-                            <p><i class="bi bi-lock"></i> Compartir seguramente archivos dentro de tu propio grupo<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; dada la seguridad que posee nuestra plataforma CloudFile<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; permite compartir archivos de manera segura dentro de la<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; plataforma, donde todos tus empleados pueden navegar<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; seguramente por internet
-                            </p> 
-                            <p><i class="bi bi-file-earmark-fill"></i> Registro de actividades del usuario. El<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; Sistema CloudFile cuenta con un historial de<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; las actividades que realizan los usuarisos en la<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; plataforma, asi podes ver quien consulta tus archivos,<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; quien descargo un recurso compartido y mas informacion
-                            </p> 
-                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <header class="header-seccion4">Con CloudFile Puedes almacenar <br />cualquier tipo de
+                            archivos</header>
+                        <p><i class="bi bi-people-fill"></i> Con nuestra plataforma podes administrar grupos<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; de trabajo. Los grupos de trabajo son una herramienta<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; muy util para equipos, organizaciones y proyectos donde<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; podras tener toda la informacion
+                        </p>
+                        <p><i class="bi bi-lock"></i> Compartir seguramente archivos dentro de tu propio grupo<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; dada la seguridad que posee nuestra plataforma CloudFile<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; permite compartir archivos de manera segura dentro de la<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; plataforma, donde todos tus empleados pueden navegar<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; seguramente por internet
+                        </p>
+                        <p><i class="bi bi-file-earmark-fill"></i> Registro de actividades del usuario. El<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; Sistema CloudFile cuenta con un historial de<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; las actividades que realizan los usuarisos en la<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; plataforma, asi podes ver quien consulta tus archivos,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; quien descargo un recurso compartido y mas informacion
+                        </p>
                     </div>
                 </div>
-            </section>
-            <section id="seccion5">
-                <div class="container">
-                    <header class="header-seccion5">Con ClaudFile no debes de temer <br/>perder tu informacion!</header>
-                    <div class="row">
-                      <div class="col-md-6">
+            </div>
+        </section>
+        <section id="seccion5">
+            <div class="container">
+                <header class="header-seccion5">Con CloudFile no debes de temer <br />perder tu informacion!
+                </header>
+                <div class="row">
+                    <div class="col-md-6">
                         <div id="div-icon">
                             <img src="./img/files.png" alt="">
                             <h4 style="text-decoration-line: underline; color: blue;">Replica de datos </h4>
-                        </div>  
+                        </div>
                         <h5>
                             El servicio de CloudFile tiene diferentes almacenes de datos alrededor del
                             mundo, en donde se asegura la persistenca de los datos de una manera
@@ -195,27 +227,28 @@
                             todavia podremos acceder a nuestra informacion sin ninguna collapse
                             de perdida
                         </h5>
-                      </div>
-                        <div class="col-md-6">
-                            <div id="div-icon">
-                                <img src="./img/computer.png" alt="">
-                                <h4 style="text-decoration-line: underline; color: blue;">Servidores de espejo</h4>
-                            </div>  
-                            <h5>
-                                Puedes acceder a los recursos de CloudFile en todo momento incluso si un 
-                                servidor del sistema falla, ya que tenemos replicas de servidores en todo
-                                el mundo y esto nos permite poder vivir la misma experiencia de usuario cada vez quien
-                                usemos la plataforma
-                            </h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="div-icon">
+                            <img src="./img/computer.png" alt="">
+                            <h4 style="text-decoration-line: underline; color: blue;">Servidores de espejo</h4>
                         </div>
+                        <h5>
+                            Puedes acceder a los recursos de CloudFile en todo momento incluso si un
+                            servidor del sistema falla, ya que tenemos replicas de servidores en todo
+                            el mundo y esto nos permite poder vivir la misma experiencia de usuario cada vez quien
+                            usemos la plataforma
+                        </h5>
                     </div>
                 </div>
-            </section>
-            <section id="seccion6">
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <header class="header-seccion6">Con ClaudFile Puedes Subir y bajar<br/>archivos con velocidades unicas!</header>  
+            </div>
+        </section>
+        <section id="seccion6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <header class="header-seccion6">Con CloudFile Puedes Subir y bajar<br />archivos con
+                            velocidades unicas!</header>
                         <div>
                             <div style="float: left; width: 10%;">
                                 <img src="./img/upload.png" alt="">
@@ -236,21 +269,17 @@
                                 rapidamente nos permite disfrutar de nuestro contenido
                             </p>
                         </div>
-                      </div>
-                        <div class="col-md-6">
-                            <img id="file-dowload-upload" src="./mocks/Imagenes/M6-Velocidad-Imagen.jpg" alt="">
-                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img id="file-dowload-upload" src="./mocks/Imagenes/M6-Velocidad-Imagen.jpg" alt="">
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer>
-        </footer>
-    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
+
 </html>

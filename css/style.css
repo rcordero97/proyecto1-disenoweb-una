@@ -3,6 +3,13 @@
     margin: auto;
 }
 
+#titulo{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
 #content{
     width: 100%;
     margin: auto;
@@ -10,10 +17,26 @@
 }
 
 #seccion1{
-    position: relative;
-    overflow: hidden;
+    height: 700px;
+    background-image: url("../mocks/Imagenes/M1-Portada-Background.jpg");
+    background-size: 100%;
+
+}
+#seccion2{
+    height: 650px;
 }
 
+#backgroundNube{
+    width: 100%;
+}
+
+#navbarDropdown,#navbarDropdown2,.textoAzul{
+    color: #2b78e4;    
+}
+
+.textoBlanco{
+    color: #ffffff !important;    
+}
 
 #nube{
     width: 50%;
@@ -52,7 +75,13 @@
 }
 
 #seccion3{
-    background:#5499c7;
+    background-color:#2b78e4;
+    height: 690px;
+}
+
+#iconoSec3-1,#iconoSec3-2,#iconoSec3-3{
+    width: 200px;
+    height: 200px;
 }
 
 #seccion4{
@@ -68,7 +97,7 @@
 }
 
 #seccion6{
-    background:#2ca3f1;
+    background:#2b78e4;
     font-size: 12pt;
 }
 
