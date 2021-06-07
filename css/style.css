@@ -34,6 +34,17 @@
     color: #2b78e4 !important;   
 }
 
+.textoAzulFooter{
+    color: #2b78e4 !important;   
+    text-decoration: underline;
+
+}
+
+.textoBlancoFooter{
+    color: #FFFFFF !important;   
+    text-decoration: underline;
+}
+
 .textoBlanco{
     color: #ffffff !important;    
 }
@@ -136,6 +147,12 @@
     background:#2b78e4;
     font-size: 24pt;
     height: 650px;
+}
+
+#footer{
+    background:#000000;
+    font-size: 24pt;
+    height: 450px;
 }
 
 #div-icon{
